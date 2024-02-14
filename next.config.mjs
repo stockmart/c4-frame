@@ -4,12 +4,12 @@ const nextConfig = {
     async redirects(){
       return [
         {
-          source: 'openaudit',
+          source: '/openaudit',
           destination: 'https://code4rena.com/how-it-works/open-audit',
           permanent: false
         },
         {
-          source: 'blue',
+          source: '/blue',
           destination: 'https://code4rena.com/how-it-works/blue',
           permanent: false
         }
