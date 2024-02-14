@@ -4,12 +4,12 @@ const nextConfig = {
     async redirects(){
       return [
         {
-          source: 'https://c4-frame.vercel.app//api/end/openaudit',
+          source: '/openaudit',
           destination: 'https://code4rena.com/how-it-works/open-audit',
           permanent: false
         },
         {
-          source: 'https://c4-frame.vercel.app//api/end/blue',
+          source: '/blue',
           destination: 'https://code4rena.com/how-it-works/blue',
           permanent: false
         }
