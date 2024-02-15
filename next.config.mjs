@@ -4,7 +4,7 @@ const nextConfig = {
     async redirects(){
       return [
         {
-          source: '/open',
+          source: '/openaudit',
           destination: 'https://code4rena.com/how-it-works/open-audit',
           permanent: false
         },
