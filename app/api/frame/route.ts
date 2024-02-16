@@ -13,7 +13,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmSxiPikXDREXrcbaKSuNr4eaq4EQNxuFsojVsdd89w3eH/10.png" />
     <meta property="fc:frame:image:aspect_ratio" content="1:1" />
-    <meta property="fc:frame:button:1" content="Get an Open Audit" />
+    <meta property="fc:frame:button:1" content="Get Audited" />
     <meta property="fc:frame:button:1:action" content="link" />
     <meta property="fc:frame:button:1:target" content="https://code4rena.com/how-it-works/open-audit" />
     <meta property="fc:frame:button:2" content="Code4rena Blue" />
